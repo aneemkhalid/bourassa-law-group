@@ -1,0 +1,32 @@
+/*!
+Theme Name: bourassa
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: bourassa
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+
+// @import 'fonts';
+@import 'variable';
+@import '../node_modules/bootstrap/scss//bootstrap';
+@import '../node_modules/slick-carousel/slick/slick';
+@import 'header';
+@import 'common';
+@import 'homepage';
+@import 'practice-areas';
+@import 'our-firm';
+@import 'footer';
+@import 'large-laptop';
+@import 'laptop';
+@import 'tablet';
+@import 'small-tablet';
+@import 'mobile';
+@import 'small-mobile';

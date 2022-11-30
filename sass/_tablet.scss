@@ -1,0 +1,386 @@
+// xxxlarge (1500px)
+@media screen and (max-width: $tablet-screen){
+    body{
+        &.fixed{
+            header{
+                nav{
+                    .navbar-toggler{
+
+                        span{
+                            transition: all ease-in-out 0.2s;
+
+                            &:nth-child(1){
+                                transform: rotate(45deg);
+                                margin-bottom: 1px;
+                            }
+
+                            &:nth-child(2){
+                                display: none;
+                            }
+
+                            &:nth-child(3){
+                                transform: rotate(-45deg);
+                                margin-top: -5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    header{
+        background: $darkBlue;
+        padding: 15px 30px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        
+        nav{
+            padding: 0 !important;
+            min-height: unset;
+            
+            .navbar-brand{
+                position: static;
+                transform: translate(0);
+
+                img{
+                    width: auto;
+                }
+            }
+
+            .navbar-toggler{
+                padding:0;
+                border: 0;
+                width: 30px;
+                height: 27px;
+                font-size: 0;
+
+                span{
+                    height: 3px;
+                    background: $white;
+                    border-radius: 4px;
+                    width: 100%;
+                    margin-bottom: 7px;
+
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .navbar-collapse{
+                position: fixed;
+                top: 95px;
+                left: 0;
+                right: 0;
+                width: 100%;
+
+                >div{
+                    height: calc(100vh - 95px);
+                    background: $darkBlue;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                ul{
+                    flex-direction: column;
+
+                    li{
+                        margin: 10px 0;
+
+                        a{
+                            letter-spacing:1px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            
+            .get-consultation{
+                position: static;
+                margin-top: 30px;
+                a{
+                    padding: 19px 15px;
+                    max-width: 300px;
+                    margin: 0 auto;
+
+                    img{
+                        width: 41px;
+                        margin-right: 10px;
+                    }
+
+                    span{
+                        letter-spacing: 1px;
+
+                        b{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .banner{
+        .banner-slider{
+            .slick-dots{
+                right: 0;
+            }
+        }
+    }
+
+    .about{
+        padding: 60px 0 100px;
+
+        .img-wrap{
+            width: 45%;
+            margin-top: 43px;
+
+            .img-content{
+                img{
+                    width: 100px;
+                }
+
+                p{
+                    width: calc(100% - 100px);
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .inner-banner{
+        margin-top: 94px;
+
+        .container{
+            padding: 0 15px;
+
+            h1{
+                font-size: 90px;
+            }
+        }
+    }
+
+    .consultation{
+        padding: 65px 0 80px;
+
+        .content{
+            margin-top: -50px;
+
+            .note{
+                span{
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+
+    .your-rights{
+        .inner{
+            span{
+                letter-spacing: 3px;
+            }
+
+            h2{
+                font-size: 120px;
+            }
+
+            p{
+                font-size: 70px;
+            }
+        }
+    }
+    
+    .verdicts {
+        .content{
+            h2{
+                font-size: 70px;
+            }
+        }
+
+        .settlements-slider{
+            padding: 25px 0 20px 40px;
+            margin-left: 50px;
+
+            .settlements{
+                padding: 0;
+            }
+        }
+    }
+
+    .why-choose-us{
+        padding:80px 0 40px;
+
+        h2{
+            margin-bottom: 80px;
+        }
+
+        .inner{
+            background-size: 480px 433px;
+
+            >img{
+                width: 327px;
+            }
+
+            ul{
+                li{
+                    margin-bottom: 68px;
+
+                    .icon{
+                        width: 85px;
+                        height: 85px;
+
+                        img{
+                            height: 50px;
+                            width: 50px;
+                        }
+                    }
+
+                    p{
+                        width: calc(100% - 85px);
+                        font-size: 21px;
+                    }
+
+                    &:nth-child(odd){
+                        p{
+                            padding-right: 13px;
+                        }
+                    }
+
+                    &:nth-child(even){
+                        p{
+                            padding-left: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .single-page-content-wrapper {
+        .content{
+            padding-right: 0;
+            
+            .is-type-video{
+                iframe{
+                    height: 340px !important;
+                }
+            }
+
+            .locations{
+                >.is-layout-flex{
+                    >.wp-block-column{
+                        iframe{
+                            height: 400px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .practice-areas-help{
+        .injury-box{
+            .img-wrap{
+                img{
+                    height: 210px;
+                }
+            }
+        }
+    }
+
+    .free-case-evaluation {
+        .inner{
+            .btn-wrap{
+                flex-direction: column;
+
+                a{
+                    margin-right: 0;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+
+        &.block{
+            .inner{
+                padding: 12px 15px 0 25px;
+
+                .img-wrap{
+                    flex-basis: 244px;
+                }
+
+                .content{
+                    flex-basis: calc(100% - 244px);
+                    padding:20px 0;
+
+                    p{
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .testimonials {
+        padding: 190px 90px 45px 0;
+
+        .inner{
+            max-width: 625px;
+            padding: 50px 35px 40px;
+
+            h2{
+                font-size: 60px;
+            }
+        }
+
+        .testimonial-slider{
+            .content{
+                .rating{
+                    img{
+                        width: 28px;
+                        height: 28px;
+                    }
+                }
+
+                p{
+                    font-size: 22px;
+                    margin-bottom: 35px;
+                }
+            }
+        }
+    }
+
+    footer{
+        .footer-bottom{
+            .inner{
+                flex-direction: column;
+
+                >a{
+                    margin-bottom: 40px;
+                }
+
+                .social-icons{
+                    margin-bottom: 40px;
+                }
+
+                .copy-right {
+                    p{
+                        font-size: 14px;
+                    }
+
+                    ul{
+                        li{
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

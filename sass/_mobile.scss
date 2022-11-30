@@ -1,0 +1,370 @@
+// xxxlarge (1500px)
+@media screen and (max-width: $mobile-screen){
+    .container{
+        max-width: 100%;
+        padding:0 30px;
+    }
+
+    h2{
+        font-size: 60px !important;
+    }
+
+    .banner{
+        min-height: 640px;
+        padding:120px 0;
+
+        .banner-slider{
+            .banner-content{
+                padding-right: 0;
+                
+                span{
+                    font-size: 40px;
+                    letter-spacing: 0;
+                }
+
+                h1{
+                    font-size: 110px;
+                }
+                
+                p{
+                    padding-left: 0;
+                    padding-right: 0;
+
+                    &:before{
+                        display: none;
+                    }
+                }
+            }
+
+            .slick-dots{
+                position: static;
+                margin-top: 20px;
+
+                li{
+                    width: 35px;
+                    margin-bottom: 0;
+                    display: inline-block;
+                    margin: 0 8px;
+
+                    button{
+                        width: 100%;
+                        height: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    .evaluation-wrapper{
+        margin-top: -100px;
+    }
+
+    .about{
+        padding:60px 0;
+    }
+
+    .practice-areas{
+        padding: 70px 0 80px;
+    }
+
+    .your-rights{
+        padding: 120px 0 80px;
+
+        .inner{
+            padding: 0 15px 40px;
+
+            span{
+                font-size: 20px;
+            }
+
+            h2{
+                font-size: 70px !important;
+            }
+
+            p{
+                font-size: 39px;
+            }
+        }
+    }
+
+    .why-choose-us{
+        h2{
+            margin-bottom: 50px;
+        }
+
+        .inner{
+            background-size: 410px 371px;
+            padding-top: 410px;
+            
+            >img{
+                width: 284px;
+            }
+
+            ul{
+                padding-top:0;
+
+                li{
+                    flex-direction: row !important;
+                    width: 100%;
+                    padding: 0 !important;
+                    margin-bottom: 30px;
+
+                    .icon{
+                        width: 75px;
+                        height: 75px;
+
+                        img{
+                            height: 45px;
+                            width: 45px;
+                        }
+                    }
+
+                    p{
+                        width: calc(100% - 75px);
+                        text-align: left !important;
+                        padding-right: 0 !important;
+                        padding-left: 25px !important;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+    .verdicts {
+        padding:40px 0 70px;
+
+        .content{
+            p{
+                margin-bottom: 30px;
+            }
+        }
+
+        .settlements-slider{
+            margin: 0;
+            border-left: 0;
+            padding: 50px 0 60px;
+
+            .settlements{
+                text-align: left;
+
+                .head{
+                    &:before{
+                        margin: 0;
+                    }
+                }
+            }
+
+            .slick-arrow{
+                transform: translateY(0) !important;
+                top: auto;
+                bottom: 0;
+                left: 50px;
+                transform: translateX(calc(-50% + 30px)) !important;
+                width: 55px;
+                height: 55px;
+
+                &:before{
+                    height: 23px;
+                }
+
+                &.slick-prev{
+                    transform: translateX(calc(-50% - 30px)) !important;
+                }
+            }
+        }
+    }
+
+    .page-template-video-faqs{
+        .faqs {
+            #accordion{
+                .card {
+                    .card-body{
+                        padding: 0;
+
+                        p{
+                            padding: 0 29px 0 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .faqs{
+        padding:50px 0;
+
+        h2{
+            text-align: left;
+            margin-bottom: 25px;
+        }
+    }
+
+    .single-page-content-wrapper {
+        .content{
+            h3{
+                font-size: 50px;
+            }
+
+            .is-type-video{
+                iframe{
+                    height: 360px !important;
+                }
+            }
+
+            .locations{
+                >.is-layout-flex{
+                    flex-wrap: wrap !important;
+                    flex-direction: column;
+                    margin-bottom: 50px;
+
+                    &:nth-child(even){
+                        flex-direction: column-reverse;
+                    }
+
+                    >.wp-block-column{
+                        width: 100%;
+                        padding: 0 !important;
+                        
+                        p{
+                            text-align: left;
+                        }
+
+                        iframe{
+                            height: 350px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .practice-areas-help{
+        .injury-box{
+            .img-wrap{
+                img{
+                    height: 210px;
+                }
+            }
+        }
+    }
+
+    .inner-banner{
+        .container{
+            min-height: 475px;
+
+            h1{
+                font-size: 80px;
+                letter-spacing: 3px;
+
+                &::after{
+                    bottom: -15px;
+                    height: 8px;
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    .free-case-evaluation {
+        .inner{
+            flex-direction: column;
+
+            .content{
+                padding: 0;
+                flex-basis: 100%;
+            }
+
+            .btn-wrap{
+                flex-direction: row;
+
+                a{
+                    min-width: 250px;
+                    margin-right: 12px;
+
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+
+        &.block{
+            .inner{
+                padding: 30px 25px 0;
+                text-align: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .fatalities{
+        .inner{
+            .single-fatality{
+                .progress-bar-wrapper{
+                    .progress-bar{
+                        flex-basis: calc(100% - 70px);
+                    }
+    
+                    span{
+                        width: 70px;
+                        padding-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        padding: 0 0 45px 0;
+
+        >img{
+            position: static;
+            width: 100%;
+        }
+
+        .inner{
+            max-width: 100%;
+
+            &:after{
+                display: none;
+            }
+        }
+    }
+
+    footer{
+        .container{
+            >.inner{
+                >.menu, >.info{
+                    width: 50%;
+                }
+            }
+        }
+
+        .footer-bottom{
+            .inner{
+                .copy-right {
+                    flex-direction: column;
+
+                    p{
+                        margin-right: 0;
+                        margin-bottom: 20px;
+                    }
+
+                    ul{
+                        flex-direction: column;
+
+                        li{
+                            margin-bottom: 20px;
+
+                            a{
+                                padding: 0;
+                                border: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,324 @@
+// xxxlarge (1500px)
+@media screen and (max-width: $small-tablet-screen){
+    .breadcrumb-wrapper{
+        margin-bottom: 55px;
+    }
+
+    .banner{
+        .banner-slider{
+            .banner-content{
+                padding-right: 30px;
+
+                span{
+                    font-size: 50px;
+                }
+
+                h1{
+                    font-size: 150px;
+                }
+                
+                p{
+                    padding-left: 215px;
+
+                    &:before{
+                        width: 183px;
+                    }
+                }
+            }
+        }
+    }
+
+    .inner-banner{
+        &#practice-areas{
+            &:before{
+                background-position: right;
+            }
+        }
+    }
+    
+    .evaluation-wrapper{
+        margin-bottom: 10px;
+
+        .inner{
+            padding:15px;
+
+            .evaluation-form-wrapper{
+                padding: 37px 15px 21px;
+
+                .content{
+                    h3{
+                        line-height: 1;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .contact-form-evaluation{
+                    form{
+                        .form-row{
+                            textarea{
+                                height: 65px;
+                            }
+
+                            button{
+                                padding: 11px 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .about{
+        padding: 60px 0 80px;
+
+        .img-wrap{
+            position: relative;
+            width: calc(100% - 43px);
+            margin-bottom: 50px;
+        }
+    }
+
+    .consultation{
+        padding: 65px 0 80px;
+        
+        h2{
+            margin-bottom: 30px;
+        }
+
+        .content{
+            margin-top: 0;
+            margin-bottom: 80px;
+
+            .info{
+                max-width: 100%;
+            }
+
+            .note{
+                width: 100%;
+
+                &:before{
+                    right: 0;
+                }
+
+                span{
+                    font-size: 19px;
+                }
+            }
+        }
+
+        .img-wrap{
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 0 43px;
+
+            &:before{
+                display: none;
+            }
+
+            &:after{
+                right: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .your-rights{
+        .inner{
+            .img-wrap{
+                height: 130px;
+                width: 130px;
+                margin: -66px auto 23px;
+                
+                img{
+                    width: 80px;
+                    object-fit: contain;
+                }
+            }
+
+            span{
+                letter-spacing: 0;
+                font-size: 21px;
+            }
+
+            h2{
+                font-size: 80px;
+            }
+
+            p{
+                font-size: 52px;
+            }
+        }
+    }
+
+    .why-choose-us{
+        padding:80px 0 50px;
+
+        .inner{
+            background-size: 320px 287px;
+
+            >img{
+                width: 217px;
+            }
+
+            ul{
+                padding-top: 18px;
+
+                li{
+                    margin-bottom: 40px;
+
+                    .icon{
+                        width: 55px;
+                        height: 55px;
+
+                        img{
+                            height: 30px;
+                            width: 30px;
+                        }
+                    }
+
+                    p{
+                        width: calc(100% - 55px);
+                        font-size: 16px;
+                    }
+
+                    &:nth-child(3){
+                        padding-right: 31px;
+                    }
+    
+                    &:nth-child(4){
+                        padding-left: 31px;
+                    }
+                }
+            }
+        }
+    }
+
+    .single-page-content-wrapper {
+        margin-bottom: 40px;
+        
+        .content{
+            margin-bottom: 50px;
+
+            .is-type-video{
+                iframe{
+                    height: 390px !important;
+                }
+            }
+
+            .locations{
+                >.is-layout-flex{
+                    >.wp-block-column{
+                        iframe{
+                            height: 320px;
+                        }
+                    }
+                }
+            }
+        }
+
+        aside{
+            .practice-areas-sidebar{
+                .injury-box{
+                    h3{
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .attorneys, .staff{
+        .attorney, .member{
+            .info{
+                padding: 20px 0 0 25px 0;
+            }
+        }
+    }
+
+    .practice-areas-help{
+        .head{
+            h2{
+                font-size: 70px;
+            }
+        }
+
+        .injury-box{
+            .img-wrap{
+                img{
+                    height: 230px;
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        padding: 220px 20px 45px 0;
+        
+        .inner{
+            padding: 50px 20px 30px;
+
+            &:after{
+                border: 6px solid $blue;
+                right: -25px;
+                top: -25px;
+            }
+
+            h2{
+                font-size: 50px;
+            }
+        }
+
+        .testimonial-slider{
+            .slick-dots{
+                position: static;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 24px;
+
+                li{
+                    margin-bottom: 0;
+                    margin-right: 16px;
+
+                    &:last-child{
+                        margin-right: 0;
+                    }
+
+                    button{
+                        height: 7px;
+                        width: 35px;
+                    }
+                }
+            }
+
+            .content{
+                .rating{
+                    margin-bottom: 22px;
+                }
+
+                p{
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    footer{
+        .container{
+            >.inner{
+                flex-wrap: wrap;
+                justify-content: flex-start;
+
+                .menu, .info{
+                    width: 33.33%;
+                }
+
+                .info{
+                    margin-bottom: 45px;
+                }
+            }
+        }
+    }
+}

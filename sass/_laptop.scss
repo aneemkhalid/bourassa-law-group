@@ -1,0 +1,76 @@
+// xxxlarge (1500px)
+@media screen and (max-width: $laptop-screen){
+    header{
+        nav{
+            padding: 0 237px 0 191px !important;
+            min-height: 88px;
+
+            .navbar-brand{
+                img{
+                    width: 190px;
+                }
+            }
+
+            .navbar-collapse{
+                ul{
+                    li{
+                        a{
+                            letter-spacing: 0.2px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+            
+            .get-consultation{
+                a{
+                    padding: 19px 15px;
+
+                    img{
+                        width: 32px;
+                        margin-right: 10px;
+                    }
+
+                    span{
+                        letter-spacing: 0;
+
+                        b{
+                            font-size: 21px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .awards-affiliations {
+        .awards-wrap{
+            margin: 0 50px;
+        }
+    }
+    
+    .free-case-evaluation {
+        .inner{
+            .btn-wrap{
+                a{
+                    min-width: 270px;
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        padding: 120px 90px 45px 0;
+
+        .inner{
+            max-width: 665px;
+            padding: 50px 35px;
+        }
+
+        .testimonial-slider{
+            .slick-dots{
+                right: -115px;
+            }
+        }
+    }
+}

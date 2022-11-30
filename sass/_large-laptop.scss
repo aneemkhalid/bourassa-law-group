@@ -1,0 +1,53 @@
+// xxxlarge (1500px)
+@media screen and (max-width: $large-laptop-screen){
+    header{
+        padding-left: 30px;
+
+        nav{
+            padding: 0 287px 0 215px !important;
+
+            .navbar-collapse{
+                ul{
+                    li{
+                        margin: 0 13px;
+                    }
+                }
+            }
+            
+            .get-consultation{
+                a{
+                    padding: 23px 17px;
+                }
+            }
+        }
+    }
+
+    .banner{
+        padding: 120px 0 200px;
+        min-height: 740px;
+        
+        .banner-slider{
+            .slick-dots{
+                right: 70px;
+            }
+        }
+    }
+
+    .about{
+        padding: 90px 0 140px;
+
+        .img-wrap{
+            width: 52%;
+        }
+    }
+
+    .testimonials{
+        padding: 120px 60px 45px 0;
+
+        .testimonial-slider{
+            .slick-dots{
+                right: -130px;
+            }
+        }
+    }
+}

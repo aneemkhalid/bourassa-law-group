@@ -1,0 +1,231 @@
+// xxxlarge (1500px)
+@media screen and (max-width: $small-mobile-screen){
+    .inner-banner{
+        .container{
+            h1{
+                font-size: 70px;
+                letter-spacing: 2px;
+
+                &::after{
+                    height: 7px;
+                    width: 230px;
+                }
+            }
+        }
+    }
+
+    .about{
+        .img-wrap{
+            width: 100%;
+            margin-top: 0;
+            
+            &:before{
+                display: none;
+            }
+
+            .img-content{
+                padding: 12px 15px;
+
+                img{
+                    width: 80px;
+                    height: 72px;
+                }
+
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .content{
+            .contact{
+                p{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .consultation{
+        .img-wrap{
+            padding: 0 23px;
+
+            &:after{
+                top: -23px;
+            }
+        }
+    }
+
+    .why-choose-us{
+        .inner{
+            background-size: 290px 262px;
+            padding-top: 300px;
+
+            >img{
+                width: 207px;
+            }
+
+            ul{
+                li{
+                    .icon{
+                        width: 55px;
+                        height: 55px;
+
+                        img{
+                            height: 30px;
+                            width: 30px;
+                        }
+                    }
+
+                    p{
+                        width: calc(100% - 55px);
+                        padding-left: 15px !important;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .page-template-video-faqs{
+        .faqs {
+            #accordion{
+                .card {
+                    .card-body{
+                        p{
+                            padding: 0 15px 0 19px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .faqs{
+        #accordion{
+            .card{
+                .card-header{
+                    h3{
+                        button{
+                            padding: 20px 50px 20px 15px;
+                            border-left: 4px solid $light-gray;
+    
+                            &:after{
+                                width: 26px;
+                                height: 15px;
+                            }
+    
+                            &[aria-expanded="true"]{
+                                border-left: 4px solid $blue;
+                            }
+                        }
+                    }
+                }
+    
+                .card-body{
+                    padding: 5px 15px 30px 19px;
+                }
+            }
+        }
+    }
+
+    .single-page-content-wrapper {
+        .content{
+            .is-type-video{
+                iframe{
+                    height: 280px !important;
+                }
+            }
+
+            .locations{
+                >.is-layout-flex{
+                    >.wp-block-column{
+                        iframe{
+                            height: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .practice-areas-help{
+        .injury-box{
+            .img-wrap{
+                img{
+                    height: auto;
+                }
+            }
+        }
+    }
+    
+    .breadcrumb-wrapper{
+        .container{
+            padding:0 15px;
+        }
+        
+        .breadcrumb{
+            .breadcrumb-item + .breadcrumb-item{
+                padding-left: 6px;
+
+                &:before{
+                    padding-right: 13px;
+                }
+            }
+        }
+    }
+
+    .awards-affiliations {
+        .awards-wrap{
+            margin: 0 35px;
+        }
+    }
+
+    .free-case-evaluation {
+        .inner{
+            .btn-wrap{
+                flex-direction: column;
+
+                a{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .attorneys, .staff{
+        .attorney, .member{
+            flex-direction: column;
+            align-items: flex-start;
+
+            .info{
+                padding-left: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .testimonials {
+        padding: 0 0 45px 0;
+
+        .inner{
+            padding: 50px 25px 35px;
+        }
+    }
+
+    footer{
+        .container{
+            >.inner{
+                text-align: center;
+
+                h6{
+                    font-weight: bold;
+                }
+
+                .menu, .info{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
